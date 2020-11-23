@@ -3,7 +3,7 @@ import React from 'react';
 
 const Result = (props) => {
     const { repos } = props;
-    
+
 
 
     const listRepos = repos.length !== 0 ? (
@@ -16,7 +16,7 @@ const Result = (props) => {
         <ul>
             {listRepos}
         </ul>
-        
+
     );
 }
 
