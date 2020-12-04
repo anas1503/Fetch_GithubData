@@ -17,7 +17,7 @@ const Result = (props) => {
                     <div className="repo-data">
                         <a target="blank" href={item.html_url} style={{ color: "blue" }}>Repos_name :-{item.name}</a>
                         <br /><p><span style={{ color: "red", fontWeight: "bold", display: "inline" }}>Branch_name-</span>{item.default_branch}</p>
-                        <br />Language_used-{item.language}<br />
+                        <br />Language_used-{item.language} <br />
 
                     </div>
                 </div>);
