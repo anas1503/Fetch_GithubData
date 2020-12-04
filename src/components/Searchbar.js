@@ -8,7 +8,7 @@ const Searchbar = () => {
 
     const [searchInput, setSearchInput] = useState('');
     const [repos, setRepos] = useState([]);
-    const [img, setImg]=useState('');
+    const [img, setImg] = useState('');
 
     const handleChange = (e) => {
         setSearchInput(e.target.value);
