@@ -41,6 +41,34 @@ button{
   
 }  
 
+button:hover{
+  color:rgb(111, 126, 111);
+  background-color: black;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+
+  
+}
+
+.repo-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid silver;
+  width:50% ;
+  margin-left: 25%;
+  margin-top: 5px;
+  padding: 3px;
+  background-color: burlywood;
+}
+
+.repo-data:hover{
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+
+}
+
+
+
 input{
   width:500px;
   border:none;
@@ -52,33 +80,14 @@ input{
  
   
 }
-a{
-  text-decoration: none;
-  color:rgb(110, 6, 6);
+
+input:hover{
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 
-a:hover {
-  text-decoration: underline;
-  color:black;
-}
-ul{
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin:5px;
-  padding: 5px;
-  list-style: circle;
-  
-}
-
-ul li{
-  margin:7px;
-  outline: none;
-  text-decoration: none;
-  border: none;
-  font-size: 22px;
- 
-
-
+img{
+    margin-left: 39%;
+    border-radius: 50%;
+    border-style: solid;    
+    height:300px;
 }
