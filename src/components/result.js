@@ -2,11 +2,11 @@ import React from 'react';
 
 
 const Result = (props) => {
-    const { repos, image } = props;
+    const { repos, image,user } = props;
     let avt = " ";
 
     if (repos.data) {
-        avt = <img src={image} alt="avatar" />;
+        avt = <a href={`https://github.com/${user}`} target="blank"><img src={image} alt="avatar" /></a>;
     }
 
 
@@ -29,7 +29,9 @@ const Result = (props) => {
 
     return (
         <>
+        <div className="avatar">
             {avt}
+            </div>
             {listRepos}
         </>
     );

@@ -34,7 +34,7 @@ const Searchbar = () => {
                 <button onClick={handleClick}>search</button>
             </div>
 
-            <Result repos={repos} image={img} />
+            <Result repos={repos} image={img} user={searchInput} />
         </>
     );
 }
